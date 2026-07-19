@@ -1,0 +1,602 @@
+﻿.\gradlew.bat : WARNING: A restricted method in java.lang.System has been called
+At line:1 char:1
++ .\gradlew.bat build 2>&1 | Out-File -FilePath "C:\Users\CHR\Desktop\G ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: A rest...has been called:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an 
+unnamed module (file:/C:/Users/CHR/.gradle/wrapper/dists/gradle-9.2.1-bin/2t0n5ozlw9xmuyvbp7dnzaxug/gradle-9.2.1/lib/na
+tive-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:30: error: package 
+mindustry.type.ammo does not exist
+import mindustry.type.ammo.ItemAmmoType;
+                          ^
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWBullets.java:162: error: cannot find symbol
+                        hitSound = Sounds.plasmaboom;
+                                         ^
+  symbol:   variable plasmaboom
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\blocks\production\filters\FilterGenericCrafter.java:21:
+ error: cannot find symbol
+                ambientSound = Sounds.smelter;
+                                     ^
+  symbol:   variable smelter
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\blocks\UAWBlocksPower.java:197: error: cannot find 
+symbol
+                        ambientSound = Sounds.smelter;
+                                             ^
+  symbol:   variable smelter
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\blocks\UAWBlocksProduction.java:214: error: cannot 
+find symbol
+                        ambientSound = Sounds.smelter;
+                                             ^
+  symbol:   variable smelter
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\blocks\UAWBlocksProduction.java:262: error: cannot 
+find symbol
+                        ambientSound = Sounds.smelter;
+                                             ^
+  symbol:   variable smelter
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:133: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:133: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:188: error: cannot find symbol
+                                        shootSound = Sounds.missileSmall;
+                                                           ^
+  symbol:   variable missileSmall
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:238: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:238: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:295: error: cannot find symbol
+                                shootSound = Sounds.shootBig;
+                                                   ^
+  symbol:   variable shootBig
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:311: error: cannot find symbol
+                                        hitSound = Sounds.boom;
+                                                         ^
+  symbol:   variable boom
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:353: error: cannot find symbol
+                                                deathSound = Sounds.largeExplosion;
+                                                                   ^
+  symbol:   variable largeExplosion
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:456: error: cannot find symbol
+                                shootSound = Sounds.shootBig;
+                                                   ^
+  symbol:   variable shootBig
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:545: error: cannot find symbol
+                                                deathSound = Sounds.largeExplosion;
+                                                                   ^
+  symbol:   variable largeExplosion
+  location: class Sounds
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [12ms][m[38D[1B> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [111ms][m[38D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [211ms][m[40D[1B> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [312ms][m[0K[36D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [411ms][m[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [512ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [642ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [711ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [821ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [912ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [1s][m[0K[33D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [2s][m[33D[2B[2A[0K
+[1m> Task :compileJava[m[0K
+[0K
+[0K
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:579: error: cannot find symbol
+                        ammoType = new ItemAmmoType(UAWItems.cryogel);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:579: error: cannot find symbol
+                        ammoType = new ItemAmmoType(UAWItems.cryogel);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:791: error: cannot find symbol
+                                shootSound = Sounds.missileLaunch;
+                                                   ^
+  symbol:   variable missileLaunch
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:816: error: cannot find symbol
+                                                deathSound = Sounds.largeExplosion;
+                                                                   ^
+  symbol:   variable largeExplosion
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:856: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:856: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:990: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:990: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1044: error: cannot find symbol
+                                                deathSound = Sounds.largeExplosion;
+                                                                   ^
+  symbol:   variable largeExplosion
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1279: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.thorium, 2);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1279: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.thorium, 2);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1330: error: cannot find symbol
+                                shootSound = Sounds.shootBig;
+                                                   ^
+  symbol:   variable shootBig
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1451: error: cannot find symbol
+                                                applySound = Sounds.flame2;
+                                                                   ^
+  symbol:   variable flame2
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1567: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1567: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1661: error: cannot find symbol
+                                shootSound = Sounds.missile;
+                                                   ^
+  symbol:   variable missile
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1694: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1694: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1842: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1842: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1917: error: cannot find symbol
+                                        shootSound = Sounds.shootBig;
+                                                           ^
+  symbol:   variable shootBig
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1952: error: cannot find symbol
+                                        shootSound = Sounds.missileLaunch;
+                                                           ^
+  symbol:   variable missileLaunch
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1976: error: cannot find symbol
+                                                        deathSound = Sounds.largeExplosion;
+                                                                           ^
+  symbol:   variable largeExplosion
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2037: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+  symbol: variable ammoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2037: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+  symbol: class ItemAmmoType
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2113: error: cannot find symbol
+                                        shootSound = Sounds.shootBig;
+                                                           ^
+  symbol:   variable shootBig
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2140: error: cannot find symbol
+                                        shootSound = Sounds.missileLaunch;
+                                                           ^
+  symbol:   variable missileLaunch
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2165: error: cannot find symbol
+                                                        deathSound = Sounds.largeExplosion;
+                                                                           ^
+  symbol:   variable largeExplosion
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2208: error: cannot find symbol
+                                        shootSound = Sounds.artillery;
+                                                           ^
+  symbol:   variable artillery
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\blocks\production\ExplodingCrafter.java:28: error: 
+cannot find symbol
+                ambientSound = Sounds.smelter;
+                                     ^
+  symbol:   variable smelter
+  location: class Sounds
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:70: error: cannot find symbol
+                return table -> table.add(new LiquidDisplay(liquid, amount, perSecond));
+                                              ^
+  symbol:   class LiquidDisplay
+  location: class UAWStatValues
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:78: error: cannot find symbol
+                                table.add(new LiquidDisplay(list.get(i), amount, perSecond)).padRight(5);
+                                              ^
+  symbol:   class LiquidDisplay
+  location: class UAWStatValues
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:94: error: cannot find symbol
+                                table.add(new LiquidDisplay(stack.liquid, stack.amount * (60f / timePeriod), 
+perSecond)).padRight(5);
+                                              ^
+  symbol:   class LiquidDisplay
+  location: class UAWStatValues
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:106: error: cannot find symbol
+                                table.add(new ItemDisplay(stack.item, stack.amount, displayName)).padRight(5);
+                                              ^
+  symbol:   class ItemDisplay
+  location: class UAWStatValues
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:114: error: cannot find symbol
+                                table.add(new ItemDisplay(stack.item, stack.amount, timePeriod, true)).padRight(5);
+                                              ^
+  symbol:   class ItemDisplay
+  location: class UAWStatValues
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:130: error: reference to add 
+is ambiguous
+                                table.add(timePeriod <= 0 ? new ItemDisplay(item) : new ItemDisplay(item, 1, 
+timePeriod, true)).padRight(5);
+                                     ^
+  both method add(Element...) in Table and method add(CharSequence) in Table match
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:130: error: cannot find symbol
+                                table.add(timePeriod <= 0 ? new ItemDisplay(item) : new ItemDisplay(item, 1, 
+timePeriod, true)).padRight(5);
+                                                                ^
+  symbol:   class ItemDisplay
+  location: class UAWStatValues
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:130: error: cannot find symbol
+                                table.add(timePeriod <= 0 ? new ItemDisplay(item) : new ItemDisplay(item, 1, 
+timePeriod, true)).padRight(5);
+                                                                                        ^
+  symbol:   class ItemDisplay
+  location: class UAWStatValues
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:130: error: void cannot be 
+dereferenced
+                                table.add(timePeriod <= 0 ? new ItemDisplay(item) : new ItemDisplay(item, 1, 
+timePeriod, true)).padRight(5);
+                                                                                                                       
+        ^
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:334: error: cannot find symbol
+                                                                b.add(new ItemDisplay(stack.item, stack.amount, 
+true)).pad(20f).left();
+                                                                          ^
+  symbol:   class ItemDisplay
+  location: class UAWStatValues
+C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:336: error: cannot find symbol
+[2A[1m<[0;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [3s][m[33D[2B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m[0K
+[0K
+[0K
+                                                                b.add(new ItemDisplay(stack.item, stack.amount, 
+timePeriod, true)).pad(20f).left();
+                                                                          ^
+  symbol:   class ItemDisplay
+  location: class UAWStatValues
+57 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler output below.
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:130: error: reference to add 
+is ambiguous
+                                table.add(timePeriod <= 0 ? new ItemDisplay(item) : new ItemDisplay(item, 1, 
+timePeriod, true)).padRight(5);
+                                     ^
+    both method add(Element...) in Table and method add(CharSequence) in Table match
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWBullets.java:162: error: cannot find symbol
+                        hitSound = Sounds.plasmaboom;
+                                         ^
+    symbol:   variable plasmaboom
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\blocks\production\filters\FilterGenericCrafter.java:2
+1: error: cannot find symbol
+                ambientSound = Sounds.smelter;
+                                     ^
+    symbol:   variable smelter
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\blocks\UAWBlocksPower.java:197: error: cannot find 
+symbol
+                        ambientSound = Sounds.smelter;
+                                             ^
+    symbol:   variable smelter
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\blocks\UAWBlocksProduction.java:214: error: cannot 
+find symbol
+                        ambientSound = Sounds.smelter;
+                                             ^
+    symbol:   variable smelter
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\blocks\UAWBlocksProduction.java:262: error: cannot 
+find symbol
+                        ambientSound = Sounds.smelter;
+                                             ^
+    symbol:   variable smelter
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:188: error: cannot find symbol
+                                        shootSound = Sounds.missileSmall;
+                                                           ^
+    symbol:   variable missileSmall
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:295: error: cannot find symbol
+                                shootSound = Sounds.shootBig;
+                                                   ^
+    symbol:   variable shootBig
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:311: error: cannot find symbol
+                                        hitSound = Sounds.boom;
+                                                         ^
+    symbol:   variable boom
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:353: error: cannot find symbol
+                                                deathSound = Sounds.largeExplosion;
+                                                                   ^
+    symbol:   variable largeExplosion
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:456: error: cannot find symbol
+                                shootSound = Sounds.shootBig;
+                                                   ^
+    symbol:   variable shootBig
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:545: error: cannot find symbol
+                                                deathSound = Sounds.largeExplosion;
+                                                                   ^
+    symbol:   variable largeExplosion
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:791: error: cannot find symbol
+                                shootSound = Sounds.missileLaunch;
+                                                   ^
+    symbol:   variable missileLaunch
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:816: error: cannot find symbol
+                                                deathSound = Sounds.largeExplosion;
+                                                                   ^
+    symbol:   variable largeExplosion
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1044: error: cannot find symbol
+                                                deathSound = Sounds.largeExplosion;
+                                                                   ^
+    symbol:   variable largeExplosion
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1330: error: cannot find symbol
+                                shootSound = Sounds.shootBig;
+                                                   ^
+    symbol:   variable shootBig
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1451: error: cannot find symbol
+                                                applySound = Sounds.flame2;
+                                                                   ^
+    symbol:   variable flame2
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1661: error: cannot find symbol
+                                shootSound = Sounds.missile;
+                                                   ^
+    symbol:   variable missile
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1917: error: cannot find symbol
+                                        shootSound = Sounds.shootBig;
+                                                           ^
+    symbol:   variable shootBig
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1952: error: cannot find symbol
+                                        shootSound = Sounds.missileLaunch;
+                                                           ^
+    symbol:   variable missileLaunch
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1976: error: cannot find symbol
+                                                        deathSound = Sounds.largeExplosion;
+                                                                           ^
+    symbol:   variable largeExplosion
+[2A[1m<[0;31;1m=[0;39;1m------------> 9% EXECUTING [3s][m[33D[1B> IDLE[6D[1B[2A[0K
+[Incubating] Problems report is available at: file:///C:/Users/CHR/Desktop/Git/Unlimited-Armament-Works/build/reports/problems/problems-report.html[0K
+[0K
+[0K
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2113: error: cannot find symbol
+                                        shootSound = Sounds.shootBig;
+                                                           ^
+    symbol:   variable shootBig
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2140: error: cannot find symbol
+                                        shootSound = Sounds.missileLaunch;
+                                                           ^
+    symbol:   variable missileLaunch
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2165: error: cannot find symbol
+                                                        deathSound = Sounds.largeExplosion;
+                                                                           ^
+    symbol:   variable largeExplosion
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2208: error: cannot find symbol
+                                        shootSound = Sounds.artillery;
+                                                           ^
+    symbol:   variable artillery
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\blocks\production\ExplodingCrafter.java:28: error: 
+cannot find symbol
+                ambientSound = Sounds.smelter;
+                                     ^
+    symbol:   variable smelter
+    location: class Sounds
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:70: error: cannot find symbol
+                return table -> table.add(new LiquidDisplay(liquid, amount, perSecond));
+                                              ^
+    symbol:   class LiquidDisplay
+    location: class UAWStatValues
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:78: error: cannot find symbol
+                                table.add(new LiquidDisplay(list.get(i), amount, perSecond)).padRight(5);
+                                              ^
+    symbol:   class LiquidDisplay
+    location: class UAWStatValues
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:94: error: cannot find symbol
+                                table.add(new LiquidDisplay(stack.liquid, stack.amount * (60f / timePeriod), 
+perSecond)).padRight(5);
+                                              ^
+    symbol:   class LiquidDisplay
+    location: class UAWStatValues
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:106: error: cannot find 
+symbol
+                                table.add(new ItemDisplay(stack.item, stack.amount, displayName)).padRight(5);
+                                              ^
+    symbol:   class ItemDisplay
+    location: class UAWStatValues
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:114: error: cannot find 
+symbol
+                                table.add(new ItemDisplay(stack.item, stack.amount, timePeriod, true)).padRight(5);
+                                              ^
+    symbol:   class ItemDisplay
+    location: class UAWStatValues
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:130: error: cannot find 
+symbol
+                                table.add(timePeriod <= 0 ? new ItemDisplay(item) : new ItemDisplay(item, 1, 
+timePeriod, true)).padRight(5);
+                                                                ^
+    symbol:   class ItemDisplay
+    location: class UAWStatValues
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:130: error: cannot find 
+symbol
+                                table.add(timePeriod <= 0 ? new ItemDisplay(item) : new ItemDisplay(item, 1, 
+timePeriod, true)).padRight(5);
+                                                                                        ^
+    symbol:   class ItemDisplay
+    location: class UAWStatValues
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:334: error: cannot find 
+symbol
+                                                                b.add(new ItemDisplay(stack.item, stack.amount, 
+true)).pad(20f).left();
+                                                                          ^
+    symbol:   class ItemDisplay
+    location: class UAWStatValues
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:336: error: cannot find 
+symbol
+                                                                b.add(new ItemDisplay(stack.item, stack.amount, 
+timePeriod, true)).pad(20f).left();
+                                                                          ^
+    symbol:   class ItemDisplay
+    location: class UAWStatValues
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\world\meta\UAWStatValues.java:130: error: void cannot be 
+dereferenced
+                                table.add(timePeriod <= 0 ? new ItemDisplay(item) : new ItemDisplay(item, 1, 
+timePeriod, true)).padRight(5);
+                                                                                                                       
+        ^
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:133: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:133: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:238: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:238: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:579: error: cannot find symbol
+                        ammoType = new ItemAmmoType(UAWItems.cryogel);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:579: error: cannot find symbol
+                        ammoType = new ItemAmmoType(UAWItems.cryogel);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:856: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:856: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:990: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:990: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1279: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.thorium, 2);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1279: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.thorium, 2);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1567: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1567: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite, 2);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1694: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1694: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1842: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:1842: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2037: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                        ^
+    symbol: variable ammoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:2037: error: cannot find symbol
+                        ammoType = new ItemAmmoType(Items.graphite);
+                                       ^
+    symbol: class ItemAmmoType
+  C:\Users\CHR\Desktop\Git\Unlimited-Armament-Works\src\UAW\content\UAWUnitTypes.java:30: error: package 
+mindustry.type.ammo does not exist
+  import mindustry.type.ammo.ItemAmmoType;
+                            ^
+  57 errors
+
+* Try:
+[33m> [39mCheck your code and dependencies to fix the compilation error(s)
+[2A[1m<[0;31;1m=[0;39;1m------------> 9% EXECUTING [3s][m[33D[1B> IDLE[6D[1B[2A1 actionable task: 1 executed[0K
+[1B[0K
+[33m> [39mRun with [1m--scan[m to generate a Build Scan (powered by Develocity).
+
+[31;1mBUILD FAILED[0;39m in 6s
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1B[2K[2A
